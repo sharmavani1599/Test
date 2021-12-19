@@ -1,0 +1,9 @@
+public class Question2 {
+	public static void main(String[] bb){
+		String name="Shivani";
+		display(name);
+	}
+	public static void display(String name){
+		System.out.println("Hello "+name+", "+"Welcome to Java World!");
+	}
+	}
