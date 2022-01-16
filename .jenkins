@@ -4,10 +4,8 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Hello Jenkins from Github'
-                sh '''
-                pwd
-                ls -altr
-                '''
+                sh "hostname"
+                sh "uptime"
             }
         }
     }
