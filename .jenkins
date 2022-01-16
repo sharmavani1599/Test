@@ -4,7 +4,10 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Hello Jenkins from Github'
-                sh 'pwd'
+                sh '''
+                pwd
+                ls -altr
+                '''
             }
         }
     }
