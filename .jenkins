@@ -5,7 +5,7 @@ pipeline {
             steps {
             echo 'Hello Jenkins from Github'
         
-                sh 'echo "fail"; exit 1' 
+                sh "script.sh" 
                 
             }
         }
